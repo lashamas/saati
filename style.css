@@ -44,31 +44,23 @@ p {
   width: 10px;
   height: 90px;
   rotate: 45deg;
-  animation-name: slide-in;
-  animation-duration: 120s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation: 123s infinite slide-in linear;
 }
 .minutes {
   width: 5px;
   height: 200px;
   rotate: 90deg;
   background-color: blue;
-  animation-name: slide-in;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation: 60s infinite slide-in linear;
 }
 .seconds {
   width: 3px;
   height: 220px;
   rotate: 180deg;
   background-color: red;
-  animation-name: slide-in;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation: 3s infinite slide-in linear;
 }
+
 @keyframes slide-in {
   from {
     rotate: 0deg;
